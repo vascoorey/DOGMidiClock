@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAD41E818EB0B8F0025E391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAD41E718EB0B8F0025E391 /* Foundation.framework */; };
+		BCAD41EA18EB0B8F0025E391 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAD41E918EB0B8F0025E391 /* CoreGraphics.framework */; };
+		BCAD41EC18EB0B8F0025E391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAD41EB18EB0B8F0025E391 /* UIKit.framework */; };
+		BCAD41F218EB0B8F0025E391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAD41F018EB0B8F0025E391 /* InfoPlist.strings */; };
+		BCAD41F418EB0B8F0025E391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD41F318EB0B8F0025E391 /* main.m */; };
+		BCAD41F818EB0B8F0025E391 /* DOGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD41F718EB0B8F0025E391 /* DOGAppDelegate.m */; };
+		BCAD41FA18EB0B8F0025E391 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAD41F918EB0B8F0025E391 /* Images.xcassets */; };
+		BCAD420118EB0B8F0025E391 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAD420018EB0B8F0025E391 /* XCTest.framework */; };
+		BCAD420218EB0B8F0025E391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAD41E718EB0B8F0025E391 /* Foundation.framework */; };
+		BCAD420318EB0B8F0025E391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAD41EB18EB0B8F0025E391 /* UIKit.framework */; };
+		BCAD420B18EB0B8F0025E391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAD420918EB0B8F0025E391 /* InfoPlist.strings */; };
+		BCAD420D18EB0B8F0025E391 /* DOGMidiClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD420C18EB0B8F0025E391 /* DOGMidiClockTests.m */; };
+		BCAD421818EB0C190025E391 /* DOGMidiClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD421718EB0C190025E391 /* DOGMidiClock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAD420418EB0B8F0025E391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAD41DC18EB0B8F0025E391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAD41E318EB0B8F0025E391;
+			remoteInfo = DOGMidiClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCAD41E418EB0B8F0025E391 /* DOGMidiClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOGMidiClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAD41E718EB0B8F0025E391 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCAD41E918EB0B8F0025E391 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCAD41EB18EB0B8F0025E391 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCAD41EF18EB0B8F0025E391 /* DOGMidiClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DOGMidiClock-Info.plist"; sourceTree = "<group>"; };
+		BCAD41F118EB0B8F0025E391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCAD41F318EB0B8F0025E391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCAD41F518EB0B8F0025E391 /* DOGMidiClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DOGMidiClock-Prefix.pch"; sourceTree = "<group>"; };
+		BCAD41F618EB0B8F0025E391 /* DOGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOGAppDelegate.h; sourceTree = "<group>"; };
+		BCAD41F718EB0B8F0025E391 /* DOGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOGAppDelegate.m; sourceTree = "<group>"; };
+		BCAD41F918EB0B8F0025E391 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCAD41FF18EB0B8F0025E391 /* DOGMidiClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOGMidiClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAD420018EB0B8F0025E391 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCAD420818EB0B8F0025E391 /* DOGMidiClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DOGMidiClockTests-Info.plist"; sourceTree = "<group>"; };
+		BCAD420A18EB0B8F0025E391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCAD420C18EB0B8F0025E391 /* DOGMidiClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOGMidiClockTests.m; sourceTree = "<group>"; };
+		BCAD421618EB0C190025E391 /* DOGMidiClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DOGMidiClock.h; path = Source/DOGMidiClock.h; sourceTree = "<group>"; };
+		BCAD421718EB0C190025E391 /* DOGMidiClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DOGMidiClock.m; path = Source/DOGMidiClock.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAD41E118EB0B8F0025E391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAD41EA18EB0B8F0025E391 /* CoreGraphics.framework in Frameworks */,
+				BCAD41EC18EB0B8F0025E391 /* UIKit.framework in Frameworks */,
+				BCAD41E818EB0B8F0025E391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAD41FC18EB0B8F0025E391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAD420118EB0B8F0025E391 /* XCTest.framework in Frameworks */,
+				BCAD420318EB0B8F0025E391 /* UIKit.framework in Frameworks */,
+				BCAD420218EB0B8F0025E391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAD41DB18EB0B8F0025E391 = {
+			isa = PBXGroup;
+			children = (
+				BCAD421618EB0C190025E391 /* DOGMidiClock.h */,
+				BCAD421718EB0C190025E391 /* DOGMidiClock.m */,
+				BCAD41ED18EB0B8F0025E391 /* DOGMidiClock */,
+				BCAD420618EB0B8F0025E391 /* DOGMidiClockTests */,
+				BCAD41E618EB0B8F0025E391 /* Frameworks */,
+				BCAD41E518EB0B8F0025E391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAD41E518EB0B8F0025E391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD41E418EB0B8F0025E391 /* DOGMidiClock.app */,
+				BCAD41FF18EB0B8F0025E391 /* DOGMidiClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAD41E618EB0B8F0025E391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD41E718EB0B8F0025E391 /* Foundation.framework */,
+				BCAD41E918EB0B8F0025E391 /* CoreGraphics.framework */,
+				BCAD41EB18EB0B8F0025E391 /* UIKit.framework */,
+				BCAD420018EB0B8F0025E391 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCAD41ED18EB0B8F0025E391 /* DOGMidiClock */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD41F618EB0B8F0025E391 /* DOGAppDelegate.h */,
+				BCAD41F718EB0B8F0025E391 /* DOGAppDelegate.m */,
+				BCAD41F918EB0B8F0025E391 /* Images.xcassets */,
+				BCAD41EE18EB0B8F0025E391 /* Supporting Files */,
+			);
+			path = DOGMidiClock;
+			sourceTree = "<group>";
+		};
+		BCAD41EE18EB0B8F0025E391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD41EF18EB0B8F0025E391 /* DOGMidiClock-Info.plist */,
+				BCAD41F018EB0B8F0025E391 /* InfoPlist.strings */,
+				BCAD41F318EB0B8F0025E391 /* main.m */,
+				BCAD41F518EB0B8F0025E391 /* DOGMidiClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCAD420618EB0B8F0025E391 /* DOGMidiClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD420C18EB0B8F0025E391 /* DOGMidiClockTests.m */,
+				BCAD420718EB0B8F0025E391 /* Supporting Files */,
+			);
+			path = DOGMidiClockTests;
+			sourceTree = "<group>";
+		};
+		BCAD420718EB0B8F0025E391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD420818EB0B8F0025E391 /* DOGMidiClockTests-Info.plist */,
+				BCAD420918EB0B8F0025E391 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAD41E318EB0B8F0025E391 /* DOGMidiClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAD421018EB0B900025E391 /* Build configuration list for PBXNativeTarget "DOGMidiClock" */;
+			buildPhases = (
+				BCAD41E018EB0B8F0025E391 /* Sources */,
+				BCAD41E118EB0B8F0025E391 /* Frameworks */,
+				BCAD41E218EB0B8F0025E391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DOGMidiClock;
+			productName = DOGMidiClock;
+			productReference = BCAD41E418EB0B8F0025E391 /* DOGMidiClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAD41FE18EB0B8F0025E391 /* DOGMidiClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAD421318EB0B900025E391 /* Build configuration list for PBXNativeTarget "DOGMidiClockTests" */;
+			buildPhases = (
+				BCAD41FB18EB0B8F0025E391 /* Sources */,
+				BCAD41FC18EB0B8F0025E391 /* Frameworks */,
+				BCAD41FD18EB0B8F0025E391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAD420518EB0B8F0025E391 /* PBXTargetDependency */,
+			);
+			name = DOGMidiClockTests;
+			productName = DOGMidiClockTests;
+			productReference = BCAD41FF18EB0B8F0025E391 /* DOGMidiClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAD41DC18EB0B8F0025E391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DOG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Delta Dog";
+				TargetAttributes = {
+					BCAD41FE18EB0B8F0025E391 = {
+						TestTargetID = BCAD41E318EB0B8F0025E391;
+					};
+				};
+			};
+			buildConfigurationList = BCAD41DF18EB0B8F0025E391 /* Build configuration list for PBXProject "DOGMidiClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCAD41DB18EB0B8F0025E391;
+			productRefGroup = BCAD41E518EB0B8F0025E391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAD41E318EB0B8F0025E391 /* DOGMidiClock */,
+				BCAD41FE18EB0B8F0025E391 /* DOGMidiClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAD41E218EB0B8F0025E391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAD41F218EB0B8F0025E391 /* InfoPlist.strings in Resources */,
+				BCAD41FA18EB0B8F0025E391 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAD41FD18EB0B8F0025E391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAD420B18EB0B8F0025E391 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAD41E018EB0B8F0025E391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAD421818EB0C190025E391 /* DOGMidiClock.m in Sources */,
+				BCAD41F418EB0B8F0025E391 /* main.m in Sources */,
+				BCAD41F818EB0B8F0025E391 /* DOGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAD41FB18EB0B8F0025E391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAD420D18EB0B8F0025E391 /* DOGMidiClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAD420518EB0B8F0025E391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAD41E318EB0B8F0025E391 /* DOGMidiClock */;
+			targetProxy = BCAD420418EB0B8F0025E391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCAD41F018EB0B8F0025E391 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAD41F118EB0B8F0025E391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCAD420918EB0B8F0025E391 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAD420A18EB0B8F0025E391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCAD420E18EB0B900025E391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCAD420F18EB0B900025E391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAD421118EB0B900025E391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOGMidiClock/DOGMidiClock-Prefix.pch";
+				INFOPLIST_FILE = "DOGMidiClock/DOGMidiClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCAD421218EB0B900025E391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOGMidiClock/DOGMidiClock-Prefix.pch";
+				INFOPLIST_FILE = "DOGMidiClock/DOGMidiClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCAD421418EB0B900025E391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DOGMidiClock.app/DOGMidiClock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOGMidiClock/DOGMidiClock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DOGMidiClockTests/DOGMidiClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCAD421518EB0B900025E391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DOGMidiClock.app/DOGMidiClock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DOGMidiClock/DOGMidiClock-Prefix.pch";
+				INFOPLIST_FILE = "DOGMidiClockTests/DOGMidiClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAD41DF18EB0B8F0025E391 /* Build configuration list for PBXProject "DOGMidiClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAD420E18EB0B900025E391 /* Debug */,
+				BCAD420F18EB0B900025E391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAD421018EB0B900025E391 /* Build configuration list for PBXNativeTarget "DOGMidiClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAD421118EB0B900025E391 /* Debug */,
+				BCAD421218EB0B900025E391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCAD421318EB0B900025E391 /* Build configuration list for PBXNativeTarget "DOGMidiClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAD421418EB0B900025E391 /* Debug */,
+				BCAD421518EB0B900025E391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAD41DC18EB0B8F0025E391 /* Project object */;
+}
