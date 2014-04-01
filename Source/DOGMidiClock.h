@@ -12,13 +12,13 @@
 
 typedef struct
 {
+  //! @abstract The current bar
+  unsigned long currentBar;
   //! @abstract The current beat
-  unsigned long currentBeat;
+  short currentBeat;
   //! @abstract Three-eights of the current beat.
   short threeEights;
-  //! @abstract The current number of elapsed pulses.
-  unsigned long long pulses;
-} DOGNoteInformation;
+} DOGBeatInformation;
 
 @interface DOGMidiClock : NSObject
 
@@ -64,6 +64,6 @@ typedef struct
 - (void) midiClockDidStop:(DOGMidiClock *)midiClock;
 
 //Beats
-- (void) midiClock:(DOGMidiClock *)midiClock didBeatWithNoteInformation:(DOGNoteInformation)noteInformation;
+- (void) midiClock:(DOGMidiClock *)midiClock didBeatWithNoteInformation:(DOGBeatInformation)noteInformation;
 
 @end
